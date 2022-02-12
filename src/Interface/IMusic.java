@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Interfaz;
+package Interface;
 
-import Clases.Listas;
+import Clases.Lists;
 import java.util.ArrayList;
 
 /**
  *
  * @author ASUS
  */
-public interface interfacemusica {
-    public ArrayList<Listas> buscador(String genero);  
-    public ArrayList<Listas> buscador(int año);
-    public ArrayList<Listas>Ordenar(String orden);
+public interface IMusic {
+    public ArrayList<Lists> toSearch (String genre);  
+    public ArrayList<Lists> toSearch(int year);
+    public ArrayList<Lists> order(String order);
 }
